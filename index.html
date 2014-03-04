@@ -1,0 +1,76 @@
+<html>
+
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+
+<body>
+ 
+	<div id="rulesContainer" class="container">
+	
+		<h1>RALLIREEGLID</h1>
+		<img src="assets/img/logo.png" class="logo" />
+	 	
+	 	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+	 	</p><p>
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+	 	
+		<button class="start-rally">Start</button>
+	</div>
+	
+	<div id="gameContainer" class="container" style="background-color:#60ba34;">
+		<img src="assets/img/bg.jpg" />
+		<div class="scene">
+			
+		</div>
+		<div class="above-scene" style="z-index:99">
+			<span class="level">Tase</span>
+			<input type="range" class="level-range" value="1" min="1" max="5" />
+		
+			<img src="assets/img/sign_finish.png" class="finish-sign" style="left:520px;top:0px;position:absolute;width:100px;z-index:9999;" />
+			<img src="assets/img/sign_start.png" class="start-sign" style="left:210px;top:550px;position:absolute;width:200px;z-index:1;" />
+			
+			<img src="assets/img/bush1.png" class="finish-sign" style="left: 140px;top: 620px;position:absolute;width:100px;z-index: 0;">
+			<img src="assets/img/bush2.png" class="finish-sign" style="left: 500px;top: 400px;position:absolute;width: 160px;z-index:9999;">
+			<img src="assets/img/bush3.png" class="finish-sign" style="left: 370px;top: 620px;position:absolute;width:100px;z-index: 0;">
+			<img src="assets/img/bush4.png" class="finish-sign" style="left: 150px;top: 400px;position:absolute;width: 80px;z-index:9999;">
+			
+		</div>
+	</div>
+	
+	<div id="finishContainer">
+		<img src="assets/img/bg_finish.jpg" />
+		
+		<span id="duckScroller">0</span>
+		
+		<button class="start-buying">Osaleme koos rallil</button>
+		
+		<button class="start-again">Mängi uuesti</button>
+	
+	</div>
+	
+	<div id="preLoader" style="display:none;">
+		
+		<img src="assets/img/duck_side.png" />
+		<img src="assets/img/duck_sider.png" />
+		<img src="assets/img/duck_side_wink.png" />
+		<img src="assets/img/duck.png" />
+		
+	</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="http://peachy.url.ee/wp-content/themes/peachy/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+	
+	<script src="assets/js/jquery.animateNumber.min.js"></script>
+	
+	
+	<script src="assets/js/app.js?012"></script>
+	
+</body>
+
+
+</html>
